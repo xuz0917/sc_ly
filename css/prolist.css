@@ -114,26 +114,80 @@ body a{
 	float:left;
 	width:227px;
 }
-.main_l_t{
-	height:36px;
-	line-height:36px;
+.sidebar {
+  width: 227px;
+  height: 100%;
+}
+.sidebar h1{
 	background-color:#000;
+	font-size:14px;
 	color:#FFF;
 	font-weight:bold;
-	font-size:14px;
+	height:36px;
+	line-height:36px;
 	text-indent:55px;
 }
-.main_l a{
-	display:block;
-	color:#FFF;
-	background-color:#c40000;
-	height:30px;
-	line-height:30px;
-	text-indent:32px;
+.sidebar ul {
+  margin:0;
+  padding:0;
+  background-color:#c40000
 }
-.main_l a:hover{
+.sidebar li {
+  list-style: none;
+  padding: 10px;
+  position: relative;
+}
+.sidebar li:hover {
+  text-indent:1em;
+  background-color: #900;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  font: 12px Open Sans;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
+}
+.sidebar .hover {
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 40px;
+  top: 0px;
+  left: 0px;
+  background-color: #900;
+  z-index: 0;
+  opacity: 0;
+}
+.sidebar a:hover {
 	background-color:#900;
-	text-indent:37px;
+}
+.sidebar .fa-angle-right {
+  position: absolute;
+  left: 150px;
+  top: 1px;
+}
+.sidebar .sub-menu {
+  position: absolute;
+  left: 227px;
+  top: -30px;
+  padding: 0px;
+  width: 220px;
+  display: none;
+}
+.sidebar .sub-menu li a {
+  padding-left: 20px;
+  font-size: 13px;
+}
+.sidebar .sub-menu i {
+  left: 180px;
+}
+.sidebar ul li:hover ul {
+  display: block;
+}
+.sidebar .push {
+  margin-right: 10px;
 }
 .main_r{
 	float:right;
@@ -199,6 +253,8 @@ body a{
 	color:#039;
 	background-color:#f5f5f5;
 }
+
+
 
 .foot{
 	height:34px;
