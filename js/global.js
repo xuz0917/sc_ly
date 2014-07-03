@@ -1,4 +1,3 @@
-!
 function(a, b) {
     function c(a) {
         return K.isWindow(a) ? a: 9 === a.nodeType ? a.defaultView || a.parentWindow: !1
