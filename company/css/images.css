@@ -178,7 +178,7 @@ input:hover{ border:1px solid #036}
 
 
 /*------------------新分页-----------------*/
-.page{ width:642px; height:40px; float:left; margin-top:10px; border-top:1px solid #CCC; display:inline}
+.page{ width:642px; height:40px; float:left; margin-top:10px; display:inline}
 .page-l{ width:400px; height:30px; float:left; }
 .page-r{ width:202px; height:30px; float:left; text-align:right }
 
@@ -188,7 +188,7 @@ input:hover{ border:1px solid #036}
 
 
 
-.page-zuo{ width:600px; height:30px; line-height:30px; float:left; text-align:center }
+.page-zuo{ width:600px; height:30px; float:left; text-align:center }
 
 
 /*------------------新分页-----------------*/
@@ -404,7 +404,7 @@ input:hover{ border:1px solid #036}
 
 .shiting{ width:682px; float:left;}
 .shiting-t{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center top;font-size:1px; line-height:1px; }
-.shiting-m{ width:642px; float:left;  background-color:#FFF; padding:0 20px 10px; overflow:hidden }
+.shiting-m{ width:642px; float:left; height:517px; background-color:#FFF; padding:0 20px; overflow:hidden }
 .shiting-b{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center bottom;font-size:1px; line-height:1px; }
 
 .shiting-bt{ width:642px; float:left; height:39px; }
