@@ -178,7 +178,7 @@ input:hover{ border:1px solid #036}
 
 
 /*------------------新分页-----------------*/
-.page{ width:642px; height:40px; float:left; margin-top:10px; border-top:1px solid #CCC; display:inline}
+.page{ width:642px; height:40px; float:left; margin-top:10px; display:inline}
 .page-l{ width:400px; height:30px; float:left; }
 .page-r{ width:202px; height:30px; float:left; text-align:right }
 
@@ -188,7 +188,7 @@ input:hover{ border:1px solid #036}
 
 
 
-.page-zuo{ width:600px; height:30px; line-height:30px; float:left; text-align:center }
+.page-zuo{ width:600px; height:30px; float:left; text-align:center }
 
 
 /*------------------新分页-----------------*/
@@ -311,7 +311,7 @@ input:hover{ border:1px solid #036}
 
 .anli{ width:682px; float:left;}
 .anli-t{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center top;font-size:1px; line-height:1px; }
-.anli-m{ width:642px; float:left; height:200px; background-color:#FFF; padding:0 20px; overflow:hidden }
+.anli-m{ width:642px; float:left; background-color:#FFF; padding:0 20px 10px; overflow:hidden }
 .anli-b{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center bottom;font-size:1px; line-height:1px; }
 
 .anli-bt{ width:642px; float:left; height:30px; line-height:30px; margin-bottom:10px; display:inline}
@@ -341,36 +341,7 @@ input:hover{ border:1px solid #036}
 .more a:hover{ color:#FFF }
 
 
-.zhuying{ width:682px; float:left;}
-.zhuying-t{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center top;font-size:1px; line-height:1px; }
-.zhuying-m{ width:642px; float:left; height:120px; background-color:#FFF; padding:0 20px; overflow:hidden }
-.zhuying-b{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center bottom;font-size:1px; line-height:1px; }
 
-.zhuying-bt{ width:321px; float:left; height:30px; line-height:30px; margin-bottom:10px; display:inline}
-.zhuying-nr{ width:318px; float:left; line-height:22px }
-.zhuying-nr p{ text-indent:2em;}
-
-
-
-
-.shipin{ width:310px; height:214px; float:left; }
-.shipintitle{ width:310px ; height:38px; line-height:38px; float:left}
-.shipintitle a{ color:#333; font-size:14px;}
-.shipintitle a:hover{ color:#c03; font-size:14px;}
-
-.shipinpic{ width:310px; height:100px; float:left;}
-.shipinpic ul li{ width:310px; height:100px; line-height:20px; float:left; overflow:hidden}
-.shipinpic img{ width:120px; height:80px; float:right}
-
-.shipintext{ width:310px; height:100px; line-height:20px; float:left; overflow:hidden}
-
-
-.peiyin{ width:310px; float:left;}
-.peiyin-bt{ width:290px; float:left; height:30px; background-color:#63A6A6; line-height:30px; padding:0 10px; color:#FFF; font-family:"微软雅黑"; font-size:14px; margin-bottom:6px; display:inline}
-.peiyin-nr{ width:310px; float:left;}
-.peiyin-nr ul li{ width:310px; float:left; height:32px; line-height:32px; background-image:url(../images/icon1.gif); background-repeat:no-repeat ; background-position:6px 10px; text-indent:20px; color:#999; overflow:hidden}
-.peiyin-nr ul li a{ color:#333; font-size:14px;}
-.peiyin-nr ul li a:hover{ color:#c03; font-size:14px;}
 
 .bg2{ background-color:#ededed;}
 
@@ -404,7 +375,7 @@ input:hover{ border:1px solid #036}
 
 .shiting{ width:682px; float:left;}
 .shiting-t{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center top;font-size:1px; line-height:1px; }
-.shiting-m{ width:642px; float:left;  background-color:#FFF; padding:0 20px 10px; overflow:hidden }
+.shiting-m{ width:642px; float:left; height:517px; background-color:#FFF; padding:0 20px; overflow:hidden }
 .shiting-b{ width:682px; float:left; height:6px; overflow:hidden; background-image:url(../images/left.gif); background-repeat:no-repeat ; background-position:center bottom;font-size:1px; line-height:1px; }
 
 .shiting-bt{ width:642px; float:left; height:39px; }
